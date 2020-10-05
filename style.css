@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+/*HEADING ELEMENTS------------------------*/
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  
+  font-size: 10px;
+  font-weight: 300;
+
+}
+
+  h1{
+    font-size: 6em;
+   
+    font-weight:900;
+    
+  }
+  h2{
+    font-size: 2.3em;
+    margin:0;
+  }
+  h3{
+    font-size: 1em;
+  }
+  h4{
+   
+  }
+  h5{
+    
+  }
+/*----------------------------------------*/
+
+
+/* NAV AREA ---------------------------------------------------*/
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+
+.logorpm{
+  padding:20px 25px 10px 25px;
+  width:60px ;
+  margin-right: 0px;
+  
+}
+
+
+/* SEARCH AREA ---------------------------------------------------*/
+.container
+{
+  width:auto;
+  height:40px;
+  background:white;
+  padding:0px;
+  border:none;
+  margin:10px 0 0 0PX;
+  
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display: flex;
+  
+
+ justify-content:left;
+ align-items:center;
+  
+}
+/* ------------------------------------- */
+.logo
+{
+ color:#fff;
+ width:60px;
+
+ margin:5px;
+ background:grey;
+ text.align:center;
+}
+
+/* ------------------------------------- */
+
+input[type=text]
+      {
+          
+       width:1400px;
+        background: #eeeeee;
+          border:none;
+          margin:8px 0;
+          outline:none;
+          padding:10px;
+       
+          }
+
+
+.inputIcon input[type=text]{
+  padding-left:40px;
+}
+
+.inputIcon{
+  position:relative;
+    
+}
+
+.inputIcon i{
+  position:absolute;
+  left:10px;
+  font-size:14px;
+  top:16px;
+padding:3px;
+  color:#9b9b9b;
+  
+}
+/* ------------------------------------- */
+.light input[type="submit"] {
+    background:  #FB3B49;
+    border:  none;
+    color: #FFFFFF;
+    width:90px;
+    padding:10px;
+                            }
+ /* ------------------------------------- */       
+ 
+ 
+
+
+    .join{
+   
+        text-decoration: none;
+        padding: 4px 20px;
+        margin-left: 40px;
+        border: 1px solid grey;
+        color: BLACK;
+        background-color: none;
+       
+   
+   
+    }
+
+
+
+                
+    .button-2{
+   
+        text-decoration: none;
+        margin-left: 10px;
+        margin-right: auto;
+        padding: 2px 20px;
+        color: BLACK;
+        background-color: #FFFFFF;;
+        
+       
+      }
+
+/* --SECTION 1-------------------------------------------------------------------- */
+.container-2
+{
+  width:auto;
+  height:850px;
+  background:rgba(232,217,217,.3);
+  padding:0;
+  border:none;
+  margin:10px 0 0 0;
+  
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display: flex;
+  
+  flex-direction:column;
+
+ justify-content:center ;
+ align-items:center;
+  
+}
+
+/* ------------------------------------- */
+#Build{
+
+
+   
+  padding: 0;
+  margin: 0;
+   
+ 
+  
+   
+}
+/* ------------------------------------- */
+
+#Essential
+    {
+
+ 
+  
+    text-align: center;
+    width:600px;
+    padding: 0 10px;
+    margin: 0px 0 60px 0;
+    font-weight:700;
+    }
+/* ------------------------------------- */
+
+#plans
+    
+    {
+        background-color: #FB3B49;
+        
+        box-shadow: 5px 5px rgba(251,59,73,.2);
+        text-decoration: none;
+        color:white;
+       padding: 10px 60px;
+       font-weight:700;
+       margin: 10px 50px 50px 0;
+             
+    }
+
+/* ------------------------------------- */
+    #jfree
+    
+    {
+        background-color:white;
+        text-decoration: none;
+        color:black;
+       padding: 10px 60px;
+       font-weight:700;
+       
+    }
+
+
+
+
+/* --SECTION 2-------------------------------------------------------------------- */
+.container-3
+{
+  width:auto;
+  height:600px;
+  background:white;
+  padding:0px;
+  border:none;
+  margin:10px 0 0 0;
+  
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display: flex;
+  
+  flex-direction:column;
+
+
+ align-items:center;
+  
+}
+
+
+/* ------------------------------------- */
+
+  
+ #hex
+ {
+  width:200px;
+  padding: 60px 0 0 0;
+  margin: 0px 0 60px 0;
+  /* border:3px solid #FB3B49; */
+  }
+/* ------------------------------------- */
+
+#bring
+      {
+        margin:0;
+        padding:0;
+        border:none;
+        background:rgba(255,204,53,.4);
+        transform: skew(9deg,0deg); 
+       
+        font-style: italic;
+        text-align: center;
+        width:1000px;
+        /* height: 55px;
+        line-height: 0px; */
+      }
+/* ------------------------------------- */
+  #tool
+  
+  {
+    /* border:3px solid #FB3B49; */
+    margin: 0px;
+      background-color:white;
+      text-decoration: none;
+      color:black;
+     padding: 10px 60px;
+     font-weight:700;
+     width:780px;
+     text-align: center;
+  }
+
+/* --SECTION 3-------------------------------------------------------------------- */
+.container-4
+{
+  width:auto;
+  height:280px;
+  padding:0px;
+  border:none;
+  margin: 0;
+  
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  
+  flex-direction:row;
+  display:flex;
+ justify-content: center;
+
+ 
+  
+}
+  
+.r-img
+{
+width:40px;
+}
+
+
+.h-color
+{color:#ED1C24;}
+
+
+
+
+#zero{
+
+width:250px;
+height:200px;
+margin:0 40px;
+
+
+    }
+
+#team{
+
+
+width:250px;
+height:200px;
+margin:0 40px;
+
+    }
+#familiar{
+
+
+width:250px;
+height:200px;
+margin:0 40px;      
+      
+        }
+      
+#audit{
+      
+
+width:250px;
+height:200px;
+margin:0 40px;
+
+}
+
+.container-5
+{
+  width:auto;
+  height:60px;
+  padding:0 0 50px 0;
+  border:none;
+  margin: 0;
+  
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  
+ 
+  
+  flex-direction:row;
+  display:flex;
+ justify-content: center;
+
+ 
+  
+}
+  #black-button{
+    width:300px;
+    height:60px;
+    background-color:black;
+    text-decoration: none;
+    color:white;
+   padding: 10px 90px;
+   box-shadow: 5px 5px rgba(128,83,35,.2);
+   
+  
+  } 
